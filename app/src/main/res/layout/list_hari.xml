@@ -12,9 +12,11 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         tools:text="Testing"
-        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
         android:textSize="14sp"
         android:padding="15dp"
-        android:textColor="#181819" />
+        android:textColor="#282829"
+         />
 
 </LinearLayout>

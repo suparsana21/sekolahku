@@ -12,7 +12,7 @@
         android:text="Pemrograman Web"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:textColor="#181819"
+        android:textColor="#383839"
         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
 
 
