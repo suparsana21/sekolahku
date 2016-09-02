@@ -10,8 +10,8 @@ public class nilai_menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nilai_menu);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        Toolbar toolbars = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbars);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
