@@ -22,8 +22,21 @@
             android:name=".nilai_menu"
             android:label="Nilai"
             android:parentActivityName=".home_siswa" />
-        <activity android:name=".matapelajaran" />
-        <activity android:name=".jadwal_siswa"></activity>
+        <activity
+            android:name=".matapelajaran"
+            android:label="Mata Pelajaran"
+            android:parentActivityName=".home_siswa"
+            >
+
+        </activity>
+        <activity android:name=".jadwal_siswa">
+
+        </activity>
+        <activity android:name=".ekstrakulikuler"
+            android:label="Ekstrakulikuler"
+            android:parentActivityName=".home_siswa">
+
+        </activity>
     </application>
 
 </manifest>
