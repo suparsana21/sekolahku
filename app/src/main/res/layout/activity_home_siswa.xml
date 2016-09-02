@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="4"
+                >
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/toolbar"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="2.5dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2">
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="NILAI"
+                            android:layout_margin="2.5dp"
+                            android:background="@color/colorBtn"
+                            android:padding="25dp"
+                            android:id="@+id/nilai"
+                            android:textColor="#FFF"
+                            android:drawableTop="@drawable/ic_nilai_big_white"
+                            android:textSize="14sp"
+                            android:scaleType="fitCenter"
+                            android:layout_weight="1" />
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="MATA PELAJARAN"
+                            android:background="@color/colorBtn"
+                            android:padding="25dp"
+                            android:id="@+id/mapel"
+                            android:textColor="#FFF"
+                            android:layout_margin="2.5dp"
+
+                            android:drawableTop="@drawable/ic_list_big"
+                            android:textSize="14sp"
+                            android:scaleType="fitCenter"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2">
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="EKSTRAKULIKULER"
+                            android:background="@color/colorBtn"
+                            android:padding="25dp"
+                            android:id="@+id/ekstrakulikuler"
+                            android:layout_margin="2.5dp"
+                            android:textColor="#FFF"
+                            android:drawableTop="@drawable/ic_ekstra_big"
+                            android:textSize="14sp"
+                            android:scaleType="fitCenter"
+                            android:layout_weight="1" />
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="KISI - KISI"
+                            android:background="@color/colorBtn"
+                            android:padding="25dp"
+                            android:id="@+id/kisikisi"
+                            android:textColor="#FFF"
+                            android:layout_margin="2.5dp"
+
+                            android:drawableTop="@drawable/ic_kisi_kisi_big"
+                            android:textSize="14sp"
+                            android:scaleType="fitCenter"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2">
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="TOKO"
+                            android:background="@color/colorBtn"
+                            android:padding="25dp"
+                            android:layout_margin="2.5dp"
+                            android:id="@+id/toko"
+                            android:textColor="#FFF"
+                            android:drawableTop="@drawable/ic_toko_big"
+                            android:textSize="14sp"
+                            android:scaleType="fitCenter"
+                            android:layout_weight="1" />
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="PELAYANAN"
+                            android:background="@color/colorBtn"
+                            android:layout_margin="2.5dp"
+
+                            android:padding="25dp"
+                            android:id="@+id/pelayanan"
+                            android:textColor="#FFF"
+                            android:drawableTop="@drawable/ic_help_big"
+                            android:textSize="14sp"
+                            android:scaleType="fitCenter"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>
