@@ -5,4 +5,6 @@
     <color name="colorAccent">#FFC107</color>
     <color name="colorBtn">#C2185B</color>
     <color name="colorHeader">#f5266d</color>
+     <color name="indicator">#ecd95a</color>
+    <color name="textTabs">#FFF</color>
 </resources>

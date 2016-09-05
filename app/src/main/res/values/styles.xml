@@ -8,5 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorHint">#dedede</item>
     </style>
+    <style name="Gelap" parent="Theme.AppCompat.DayNight.NoActionBar">
 
+    </style>
 </resources>

@@ -25,16 +25,21 @@
         <activity
             android:name=".matapelajaran"
             android:label="Mata Pelajaran"
-            android:parentActivityName=".home_siswa"
-            >
+            android:parentActivityName=".home_siswa">
 
         </activity>
         <activity android:name=".jadwal_siswa">
 
         </activity>
-        <activity android:name=".ekstrakulikuler"
+        <activity
+            android:name=".ekstrakulikuler"
             android:label="Ekstrakulikuler"
-            android:parentActivityName=".home_siswa">
+            android:parentActivityName=".home_siswa"
+            android:theme="@style/Gelap"
+            >
+
+        </activity>
+        <activity android:name=".judul_detail">
 
         </activity>
     </application>

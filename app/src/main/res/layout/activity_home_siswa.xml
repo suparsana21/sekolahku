@@ -81,7 +81,7 @@
                             android:layout_margin="2.5dp"
                             android:textColor="#FFF"
                             android:drawableTop="@drawable/ic_ekstra_big"
-                            android:textSize="14sp"
+                            android:textSize="13sp"
                             android:scaleType="fitCenter"
                             android:layout_weight="1" />
                         <Button
